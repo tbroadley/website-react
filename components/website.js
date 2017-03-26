@@ -7,6 +7,17 @@ export default class Website extends React.Component {
   render() {
     const sideProjects = [
       {
+        name: "Gatekeepify",
+        description: (
+          <span>
+            YOU 👏 DON'T 👏 GET 👏 TO 👏 GATEKEEP 👏 IF 👏 YOU'RE 👏 NOT 👏 USING 👏 GATEKEEPIFY 😤.
+            Built for <a href="https://terriblehack6.devpost.com/">TerribleHack the 6ix</a>.
+          </span>
+        ),
+        githubUrl: "https://github.com/tbroadley/tbroadley.github.io/tree/master/gatekeepify",
+        externalUrl: "http://tbroadley.com/gatekeepify",
+      },
+      {
         name: <code>assert_matches_snapshot</code>,
         description: "A Ruby assertion for snapshot testing.",
         githubUrl: "tbroadley/assert_matches_snapshot",
