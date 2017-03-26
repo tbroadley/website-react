@@ -14,7 +14,7 @@ export default class Website extends React.Component {
             Built for <a href="https://terriblehack6.devpost.com/">TerribleHack the 6ix</a>.
           </span>
         ),
-        githubUrl: "https://github.com/tbroadley/tbroadley.github.io/tree/master/gatekeepify",
+        githubUrl: "tbroadley/tbroadley.github.io/tree/master/gatekeepify",
         externalUrl: "http://tbroadley.com/gatekeepify",
       },
       {
