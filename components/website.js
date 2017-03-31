@@ -7,26 +7,15 @@ export default class Website extends React.Component {
   render() {
     const sideProjects = [
       {
-        name: "Gatekeepify",
-        description: (
-          <span>
-            YOU 👏 DON'T 👏 GET 👏 TO 👏 GATEKEEP 👏 IF 👏 YOU'RE 👏 NOT 👏 USING 👏 GATEKEEPIFY 😤.
-            Built for <a href="https://terriblehack6.devpost.com/">TerribleHack the 6ix</a>.
-          </span>
-        ),
-        githubUrl: "tbroadley/tbroadley.github.io/tree/master/gatekeepify",
-        externalUrl: "http://tbroadley.com/gatekeepify",
+        name: "Paneless",
+        description: "A browser-based HTML / CSS / JS editor. The output automatically refreshes as you edit. Add and remove rows and columns of panes at will.",
+        githubUrl: "tbroadley/paneless",
+        externalUrl: "/paneless",
       },
       {
-        name: <code>assert_matches_snapshot</code>,
-        description: "A Ruby assertion for snapshot testing.",
-        githubUrl: "tbroadley/assert_matches_snapshot",
-        externalUrl: "https://rubygems.org/gems/assert_matches_snapshot",
-      },
-      {
-        name: "Twitch Chat Reader",
-        description: "A web application that reads chat messages from a Twitch stream out loud as they are sent.",
-        externalUrl: "/twitch-chat-reader",
+        name: "Releaf",
+        description: "An Android application that provides simple daily challenges to help improve motivation.",
+        externalUrl: "https://play.google.com/store/apps/details?id=com.mindyourmind.releaf&hl=en",
       },
       {
         name: "Rock-Paper-Scissors Kik Bot",
@@ -41,10 +30,26 @@ export default class Website extends React.Component {
         externalUrl: "https://www.npmjs.com/package/lodash-fp-migrate",
       },
       {
-        name: "Paneless",
-        description: "A browser-based HTML / CSS / JS editor. The output automatically refreshes as you edit. Add and remove rows and columns of panes at will.",
-        githubUrl: "tbroadley/paneless",
-        externalUrl: "/paneless",
+        name: <code>assert_matches_snapshot</code>,
+        description: "A Ruby assertion for snapshot testing.",
+        githubUrl: "tbroadley/assert_matches_snapshot",
+        externalUrl: "https://rubygems.org/gems/assert_matches_snapshot",
+      },
+      {
+        name: "Twitch Chat Reader",
+        description: "A web application that reads chat messages from a Twitch stream out loud as they are sent.",
+        externalUrl: "/twitch-chat-reader",
+      },
+      {
+        name: "Gatekeepify",
+        description: (
+          <span>
+            YOU 👏 DON'T 👏 GET 👏 TO 👏 GATEKEEP 👏 IF 👏 YOU'RE 👏 NOT 👏 USING 👏 GATEKEEPIFY 😤.
+            Built for <a href="https://terriblehack6.devpost.com/">TerribleHack the 6ix</a>.
+          </span>
+        ),
+        githubUrl: "tbroadley/tbroadley.github.io/tree/master/gatekeepify",
+        externalUrl: "http://tbroadley.com/gatekeepify",
       },
     ]
 
