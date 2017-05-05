@@ -60,11 +60,10 @@ export default class Website extends React.Component {
           <h2>About me</h2>
           <p>I am a third-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>
           <p>
-            I've worked at
-            <a href="https://www.shopify.ca/plus">Shopify Plus</a>
-            and
-            <a href="https://old.boltmade.com/">Boltmade</a>
-            (since acquired by Shopify).
+            I've worked at <a href="https://www.shopify.ca/plus">Shopify Plus</a> and <a href="https://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
+          </p>
+          <p>
+            While at Shopify Plus, I helped to build <a href="https://help.shopify.com/manual/apps/apps-by-shopify/launchpad">Launchpad</a>, a Shopify app that helps merchants run limited-time sales events.
           </p>
         </section>
         <SideProjects sideProjects={sideProjects} />
