@@ -59,7 +59,13 @@ export default class Website extends React.Component {
         <section id="about">
           <h2>About me</h2>
           <p>I am a third-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>
-          <p>I am currently working at Shopify Plus in Waterloo.</p>
+          <p>
+            I've worked at
+            <a href="https://www.shopify.ca/plus">Shopify Plus</a>
+            and
+            <a href="https://old.boltmade.com/">Boltmade</a>
+            (since acquired by Shopify).
+          </p>
         </section>
         <SideProjects sideProjects={sideProjects} />
         <section id="music">
