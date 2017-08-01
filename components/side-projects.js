@@ -20,26 +20,26 @@ export default class SideProjects extends React.Component {
                   <td><p>{sideProject.name}</p></td>
                   <td><p>{sideProject.description}</p></td>
                   <td>
-                    <p>
-                      {
-                        sideProject.githubUrl ? (
+                    {
+                      sideProject.githubUrl ? (
+                        <p>
                           <a href={"https://github.com/" + sideProject.githubUrl}>
                             <i className="icon-github-circled"></i>
                           </a>
-                        ) : <span>&ndash;</span>
-                      }
-                    </p>
+                        </p>
+                      ) : <span>&ndash;</span>
+                    }
                   </td>
                   <td>
-                    <p>
-                      {
-                        sideProject.externalUrl ? (
+                    {
+                      sideProject.externalUrl ? (
+                        <p>
                           <a href={sideProject.externalUrl}>
                             <i className="icon-link-ext"></i>
                           </a>
-                        ) : <span>&ndash;</span>
-                      }
-                    </p>
+                        </p>
+                      ) : <span>&ndash;</span>
+                    }
                   </td>
                 </tr>
               ))
