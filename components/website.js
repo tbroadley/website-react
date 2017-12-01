@@ -49,7 +49,7 @@ export default class Website extends React.Component {
           </span>
         ),
         githubUrl: "tbroadley/tbroadley.github.io/tree/master/gatekeepify",
-        externalUrl: "http://tbroadley.com/gatekeepify",
+        externalUrl: "/gatekeepify",
       },
     ]
 
