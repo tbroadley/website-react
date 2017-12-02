@@ -67,9 +67,6 @@ export default class Website extends React.Component {
           <p>
             I've also worked at <a href="https://www.shopify.ca/plus">Shopify Plus</a> and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
           </p>
-          <p>
-            While at Shopify Plus, I helped to build <a href="https://apps.shopify.com/launchpad">Launchpad</a>, a Shopify app that helps merchants run limited-time sales events.
-          </p>
         </section>
         <SideProjects sideProjects={sideProjects} />
         <section id="music">
