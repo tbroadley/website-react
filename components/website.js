@@ -24,13 +24,15 @@ export default class Website extends React.Component {
         externalUrl: "https://bots.kik.com/#/bot_paper_scissors",
       },
       {
-        name: <code>lodash-fp-migrate</code>,
+        name: "lodash-fp-migrate",
+        wrapNameInCodeTag: true,
         description: <span>A tool for migrating code that uses <code>lodash</code> to <code>lodash/fp</code>.</span>,
         githubUrl: "tbroadley/lodash-fp-migrate",
         externalUrl: "https://www.npmjs.com/package/lodash-fp-migrate",
       },
       {
-        name: <code>assert_matches_snapshot</code>,
+        name: "assert_matches_snapshot",
+        wrapNameInCodeTag: true,
         description: "A Ruby assertion for snapshot testing.",
         githubUrl: "tbroadley/assert_matches_snapshot",
         externalUrl: "https://rubygems.org/gems/assert_matches_snapshot",

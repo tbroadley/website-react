@@ -17,7 +17,15 @@ export default class SideProjects extends React.Component {
             {
               this.props.sideProjects.map(sideProject => (
                 <tr>
-                  <td><p>{sideProject.name}</p></td>
+                  <td>
+                    <p>
+                      {
+                        sideProject.wrapNameInCodeTag ? (
+                          <code>{sideProject.name}</code>
+                        ) : sideProject.name
+                      }
+                    </p>
+                  </td>
                   <td><p>{sideProject.description}</p></td>
                   <td>
                     {
