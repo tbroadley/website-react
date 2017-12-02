@@ -9,7 +9,7 @@ export default class SideProjects extends React.Component {
           <thead>
             <tr>
               {
-                ["Name", "Description", "Github", "Website"].map(header => <th>{header}</th>)
+                ["Name", "Description", "GitHub", "Website"].map(header => <th>{header}</th>)
               }
             </tr>
           </thead>
