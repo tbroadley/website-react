@@ -32,7 +32,7 @@ export default class SideProjects extends React.Component {
                       sideProject.githubUrl ? (
                         <p>
                           <a href={"https://github.com/" + sideProject.githubUrl}>
-                            <i className="icon-github-circled"></i>
+                            <img src="/assets/github-logo.svg" alt={`${sideProject.name} GitHub`} />
                           </a>
                         </p>
                       ) : <span>&ndash;</span>
@@ -43,7 +43,7 @@ export default class SideProjects extends React.Component {
                       sideProject.externalUrl ? (
                         <p>
                           <a href={sideProject.externalUrl}>
-                            <i className="icon-link-ext"></i>
+                            <img src="/assets/external-link-symbol.svg" alt={`${sideProject.name} website`} />
                           </a>
                         </p>
                       ) : <span>&ndash;</span>
