@@ -60,12 +60,9 @@ export default class Website extends React.Component {
         <Header>Thomas Broadley</Header>
         <section id="about">
           <h2>About me</h2>
-          <p>I am a third-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>
+          <p>I am a fourth-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>
           <p>
-            I'm currently on an internship at <a href="https://zeitspace.com/">Zeitspace</a>, a software product design and development consultancy located in Kitchener, Canada.
-          </p>
-          <p>
-            I've also worked at <a href="https://www.shopify.ca/plus">Shopify Plus</a> and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
+            I've worked at <a href="https://zeitspace.com/">Zeitspace</a>, <a href="https://www.shopify.ca/plus">Shopify Plus</a>, and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
           </p>
         </section>
         <SideProjects sideProjects={sideProjects} />
