@@ -7,6 +7,11 @@ export default class Website extends React.Component {
   render() {
     const sideProjects = [
       {
+        name: "GitHub Spellcheck CLI",
+        description: "A tool for checking GitHub repositories for spelling errors and submitting PRs to fix them. So far, I've fixed typos in over 90 repos.",
+        githubUrl: "tbroadley/github-spellcheck-cli",
+      },
+      {
         name: "Paneless",
         description: "A browser-based HTML / CSS / JS editor. The output automatically refreshes as you edit. Add and remove rows and columns of panes at will.",
         githubUrl: "tbroadley/paneless",
