@@ -74,7 +74,7 @@ export default class Website extends React.Component {
         <section id="music">
           <h2>Music</h2>
           <p>
-            I make music and post it on <a href="https://soundcloud.com/newwworld">Soundcloud</a>.
+            I make music and post it on <a href="https://soundcloud.com/newwworld">SoundCloud</a>.
           </p>
         </section>
         <section id="contact">
