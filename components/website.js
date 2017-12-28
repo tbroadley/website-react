@@ -12,12 +12,6 @@ export default class Website extends React.Component {
         githubUrl: "tbroadley/github-spellcheck-cli",
       },
       {
-        name: "Paneless",
-        description: "A browser-based HTML / CSS / JS editor. The output automatically refreshes as you edit. Add and remove rows and columns of panes at will.",
-        githubUrl: "tbroadley/paneless",
-        externalUrl: "/paneless",
-      },
-      {
         name: "Releaf",
         description: "An Android application that provides simple daily challenges to help improve motivation.",
         externalUrl: "https://play.google.com/store/apps/details?id=com.mindyourmind.releaf&hl=en",
@@ -34,18 +28,6 @@ export default class Website extends React.Component {
         description: <span>A tool for migrating code that uses <code>lodash</code> to <code>lodash/fp</code>.</span>,
         githubUrl: "tbroadley/lodash-fp-migrate",
         externalUrl: "https://www.npmjs.com/package/lodash-fp-migrate",
-      },
-      {
-        name: "assert_matches_snapshot",
-        wrapNameInCodeTag: true,
-        description: "A Ruby assertion for snapshot testing.",
-        githubUrl: "tbroadley/assert_matches_snapshot",
-        externalUrl: "https://rubygems.org/gems/assert_matches_snapshot",
-      },
-      {
-        name: "Twitch Chat Reader",
-        description: "A web application that reads chat messages from a Twitch stream out loud as they are sent.",
-        externalUrl: "/twitch-chat-reader",
       },
       {
         name: "Gatekeepify",
