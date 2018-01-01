@@ -12,11 +12,6 @@ export default class Website extends React.Component {
         githubUrl: "tbroadley/github-spellcheck-cli",
       },
       {
-        name: "Releaf",
-        description: "An Android application that provides simple daily challenges to help improve motivation.",
-        externalUrl: "https://play.google.com/store/apps/details?id=com.mindyourmind.releaf&hl=en",
-      },
-      {
         name: "Rock-Paper-Scissors Kik Bot",
         description: <span>A bot for the Kik messaging app that plays rock-paper-scissors. Built as part of <a href="https://medium.com/boltmades-31-days-of-bots-in-may">Boltmade's 31 Days of Bots in May</a>.</span>,
         githubUrl: "tbroadley/bot-paper-scissors",
