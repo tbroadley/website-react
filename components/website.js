@@ -20,7 +20,7 @@ export default class Website extends React.Component {
       {
         name: "lodash-fp-migrate",
         wrapNameInCodeTag: true,
-        description: <span>A tool for migrating code that uses <code>lodash</code> to <code>lodash/fp</code>.</span>,
+        description: <span>A tool for migrating code that uses <a href="https://github.com/lodash/lodash"><code>lodash</code></a> to <a href="https://github.com/lodash/lodash/wiki/FP-Guide"><code>lodash/fp</code></a>.</span>,
         githubUrl: "tbroadley/lodash-fp-migrate",
         externalUrl: "https://www.npmjs.com/package/lodash-fp-migrate",
       },
