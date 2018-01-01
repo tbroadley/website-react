@@ -8,7 +8,7 @@ export default class Website extends React.Component {
     const sideProjects = [
       {
         name: "GitHub Spellcheck CLI",
-        description: "A tool for checking GitHub repositories for spelling errors and submitting PRs to fix them. So far, I've fixed typos in over 90 repos.",
+        description: "A tool for checking GitHub repositories for spelling errors and submitting PRs to fix them. So far, I've used it to fix typos in over 90 repos.",
         githubUrl: "tbroadley/github-spellcheck-cli",
       },
       {
