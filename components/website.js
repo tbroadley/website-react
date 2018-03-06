@@ -46,6 +46,7 @@ export default class Website extends React.Component {
           <p>
             I've worked at <a href="https://zeitspace.com/">Zeitspace</a>, <a href="https://www.shopify.ca/plus">Shopify Plus</a>, and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
           </p>
+          <p>I'll be working at <a href="https://datadoghq.com">Datadog</a> in New York City this summer.</p>
         </section>
         <SideProjects sideProjects={sideProjects} />
         <section id="music">
