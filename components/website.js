@@ -7,6 +7,11 @@ export default class Website extends React.Component {
   render() {
     const sideProjects = [
       {
+        name: "CS 452 project",
+        description: "A microkernel and userland programs, written in C, that run on a microcontroller and control a model train set.",
+        externalUrl: "/trains.webm",
+      },
+      {
         name: "GitHub Spellcheck CLI",
         description: "A tool for checking GitHub repositories for spelling errors and submitting PRs to fix them. So far, I've used it to fix typos in over 90 repos.",
         githubUrl: "tbroadley/github-spellcheck-cli",
