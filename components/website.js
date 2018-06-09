@@ -61,6 +61,15 @@ export default class Website extends React.Component {
           <h2 className="subheader thin">Contact me</h2>,
           <a href="mailto:buriedunderbooks@hotmail.com">Email</a>,
         ]}/>
+        <section className="w-100 p-2 border-box display-flex align-content-center text-center bg-teal">
+          <div className="container">
+            <div className="row">
+              <div className="col xs-12">
+                Built with <a href="https://www.buildwithboba.com">boba</a>.
+              </div>
+            </div>
+          </div>
+        </section>
       </body>
     );
   }
