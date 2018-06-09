@@ -1,60 +1,31 @@
 import React from 'react';
 
+import Card from './card';
+import Section from './section';
+
 export default class SideProjects extends React.Component {
   render() {
     return (
-      <section id="side-projects">
-        <h2>Side projects</h2>
-        <table>
-          <thead>
-            <tr>
-              {
-                ["Name", "Description", "GitHub", "Website"].map(header => <th>{header}</th>)
+      <Section columns={[
+        <h2 className="subheader thin">Side projects</h2>,
+        ...this.props.sideProjects.map(sideProject => ({
+          classes: 'xs-12 sm-6 md-4',
+          element: (
+            <Card
+              header={
+                sideProject.wrapNameInCodeTag ? (
+                  <code className="inline">{sideProject.name}</code>
+                ) : sideProject.name
               }
-            </tr>
-          </thead>
-          <tbody>
-            {
-              this.props.sideProjects.map(sideProject => (
-                <tr>
-                  <td>
-                    <p>
-                      {
-                        sideProject.wrapNameInCodeTag ? (
-                          <code>{sideProject.name}</code>
-                        ) : sideProject.name
-                      }
-                    </p>
-                  </td>
-                  <td><p>{sideProject.description}</p></td>
-                  <td>
-                    {
-                      sideProject.githubUrl ? (
-                        <p>
-                          <a href={"https://github.com/" + sideProject.githubUrl}>
-                            <img src="/assets/github-logo.svg" alt={`${sideProject.name} GitHub`} />
-                          </a>
-                        </p>
-                      ) : <span>&ndash;</span>
-                    }
-                  </td>
-                  <td>
-                    {
-                      sideProject.externalUrl ? (
-                        <p>
-                          <a href={sideProject.externalUrl}>
-                            <img src="/assets/external-link-symbol.svg" alt={`${sideProject.name} website`} />
-                          </a>
-                        </p>
-                      ) : <span>&ndash;</span>
-                    }
-                  </td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </section>
+              content={sideProject.description}
+              footerItems={[
+                sideProject.githubUrl && <a href={sideProject.githubUrl}>GitHub</a>,
+                sideProject.externalUrl && <a href={sideProject.externalUrl}>Website</a>,
+              ].filter(el => el)}
+            />
+          ),
+        })),
+      ]}/>
     );
   }
 }
