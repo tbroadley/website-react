@@ -1,4 +1,5 @@
 import Header from './header';
+import Section from './section';
 import SideProjects from './side-projects';
 
 import React from 'react';
@@ -45,31 +46,21 @@ export default class Website extends React.Component {
     return (
       <body>
         <Header>Thomas Broadley</Header>
-        <section id="about">
-          <h2>About me</h2>
-          <p>I am a fourth-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>
-          <p>
-            I've worked at <a href="https://zeitspace.com/">Zeitspace</a>, <a href="https://www.shopify.ca/plus">Shopify Plus</a>, and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).
-          </p>
-          <p>I'm working at <a href="https://datadoghq.com">Datadog</a> in New York City this summer.</p>
-        </section>
+        <Section columns={[
+          <h2 class="subheader thin">About me</h2>,
+          <p>I am a fourth-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>,
+          <p>I&#x27;ve worked at <a href="https://zeitspace.com/">Zeitspace</a>, <a href="https://www.shopify.ca/plus">Shopify Plus</a>, and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).</p>,
+          <p>I&#x27;m working at <a href="https://datadoghq.com">Datadog</a> in New York City this summer.</p>,
+        ]}/>
         <SideProjects sideProjects={sideProjects} />
-        <section id="music">
-          <h2>Music</h2>
-          <p>
-            I make music and post it on <a href="https://soundcloud.com/newwworld">SoundCloud</a>.
-          </p>
-        </section>
-        <section id="contact">
-          <h2>Contact me</h2>
-          <ul>
-            <li>
-              <a href="mailto:buriedunderbooks@hotmail.com">
-                Email
-              </a>
-            </li>
-          </ul>
-        </section>
+        <Section columns={[
+          <h2 class="subheader thin">Music</h2>,
+          <p>I make music and post it on <a href="https://soundcloud.com/newwworld">SoundCloud</a>.</p>,
+        ]}/>
+        <Section columns={[
+          <h2 class="subheader thin">Contact me</h2>,
+          <a href="mailto:buriedunderbooks@hotmail.com">Email</a>,
+        ]}/>
       </body>
     );
   }
