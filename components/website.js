@@ -47,18 +47,18 @@ export default class Website extends React.Component {
       <body>
         <Header>Thomas Broadley</Header>
         <Section columns={[
-          <h2 class="subheader thin">About me</h2>,
+          <h2 className="subheader thin">About me</h2>,
           <p>I am a fourth-year Computer Science student at the University of Waterloo in Waterloo, Canada.</p>,
           <p>I&#x27;ve worked at <a href="https://zeitspace.com/">Zeitspace</a>, <a href="https://www.shopify.ca/plus">Shopify Plus</a>, and <a href="http://old.boltmade.com/">Boltmade</a> (since acquired by Shopify).</p>,
           <p>I&#x27;m working at <a href="https://datadoghq.com">Datadog</a> in New York City this summer.</p>,
         ]}/>
         <SideProjects sideProjects={sideProjects} />
         <Section columns={[
-          <h2 class="subheader thin">Music</h2>,
+          <h2 className="subheader thin">Music</h2>,
           <p>I make music and post it on <a href="https://soundcloud.com/newwworld">SoundCloud</a>.</p>,
         ]}/>
         <Section columns={[
-          <h2 class="subheader thin">Contact me</h2>,
+          <h2 className="subheader thin">Contact me</h2>,
           <a href="mailto:buriedunderbooks@hotmail.com">Email</a>,
         ]}/>
       </body>
