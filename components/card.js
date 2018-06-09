@@ -5,19 +5,19 @@ export default class Card extends React.Component {
     const { header, content, footerItems } = this.props;
 
     return (
-      <div class="card shadow-2">
-        <div class="card-header bg-light">
-          <div class="card-header-title">
+      <div className="card shadow-2">
+        <div className="card-header bg-light">
+          <div className="card-header-title">
             {header}
           </div>
         </div>
-        <p class="card-content">
+        <p className="card-content">
           {content}
         </p>
-        <div class="card-footer">
+        <div className="card-footer">
           {
             footerItems.map(footerItem => (
-              <div class="card-footer-item">
+              <div className="card-footer-item">
                 {footerItem}
               </div>
             ))
