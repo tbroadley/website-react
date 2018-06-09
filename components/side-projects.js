@@ -9,7 +9,7 @@ export default class SideProjects extends React.Component {
       <Section columns={[
         <h2 className="subheader thin">Side projects</h2>,
         ...this.props.sideProjects.map(sideProject => ({
-          classes: 'xs-12 md-6 xl-4',
+          classes: 'xs-12 sm-6 md-4',
           element: (
             <Card
               header={
