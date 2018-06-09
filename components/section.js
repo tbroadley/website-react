@@ -3,7 +3,7 @@ import React from 'react';
 export default class Section extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className={`section ${this.props.className}`}>
         <div className="container">
           <div className="row">
             {

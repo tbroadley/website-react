@@ -61,6 +61,9 @@ export default class Website extends React.Component {
           <h2 className="subheader thin">Contact me</h2>,
           <a href="mailto:buriedunderbooks@hotmail.com">Email</a>,
         ]}/>
+        <Section className="bg-teal" columns={[
+          <p>Built using <a href="https://www.buildwithboba.com">boba</a>.</p>,
+        ]}/>
       </body>
     );
   }
