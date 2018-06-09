@@ -5,9 +5,11 @@ export default class Header extends React.Component {
     return (
       <header className="banner bg-green">
         <div className="banner-body">
-          <h1 className="header">
-            {this.props.children}
-          </h1>
+          <div className="container">
+            <h1 className="header">
+              {this.props.children}
+            </h1>
+          </div>
         </div>
       </header>
     );
