@@ -19,7 +19,7 @@ export default class SideProjects extends React.Component {
               }
               content={sideProject.description}
               footerItems={[
-                sideProject.githubUrl && <a href={sideProject.githubUrl}>GitHub</a>,
+                sideProject.githubUrl && <a href={`https://github.com/${sideProject.githubUrl}`}>GitHub</a>,
                 sideProject.externalUrl && <a href={sideProject.externalUrl}>Website</a>,
               ].filter(el => el)}
             />
